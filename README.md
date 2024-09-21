@@ -2,10 +2,10 @@
 
 This repo is a documentation of my studies of Python during IBM Data Engineering Professional Certificate course. There are 4 folders in this repo - one with a course project (Project folder) and three with preparation exercises. 
 
-### Project
+### ✅ Project
 
 
-### ETL
+### ✅ ETL
 
 This project implements an ETL (Extract, Transform, Load) process using Python to handle CSV, JSON, and XML data formats.
 
@@ -15,7 +15,7 @@ Through this task, I learned how to:
 - Transform data by converting height from inches to meters and weight from pounds to kilograms.
 - Utilise logging to track the progress of each ETL phase effectively.
 
-### Web Scraping and APIs
+### ✅ Web Scraping and APIs
 
 I learned to extract data from web pages using Python through web scraping. The main objectives included utilising the `requests` and `BeautifulSoup` libraries to retrieve and analyse HTML code.
 
@@ -26,7 +26,7 @@ By the end of this exercise, I learnt how to:
 
 This experience enhanced my understanding of web scraping techniques and improved my ability to handle HTML data structures for information extraction.
 
-### Database Creation and Data Loading 
+### ✅ Database Creation and Data Loading 
 
 I learned how to create a database using Python and the SQLite3 library, which is embedded in Python. 
 
