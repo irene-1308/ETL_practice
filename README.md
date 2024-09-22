@@ -1,50 +1,67 @@
-# Introduction
+# 🐍 Python Study Projects Overview 🐍
 
-This repo is a documentation of my studies of Python during IBM Data Engineering Professional Certificate course. There are 4 folders in this repo - one with a course project (Project folder) and three with preparation exercises. 
+This repository showcases my Python projects during the IBM Data Engineering Professional Certificate course. It contains four folders: one main project (the GDP folder) and three preparation exercises.
 
-### ✅ Project
+## 🌍 GDP Project
 
+This is my primary study project, where I applied all the skills gained from the other tasks.
 
-### ✅ ETL
+### Project Brief
+An international firm aiming to expand its business globally has hired me as a Junior Data Engineer. My task is to create an automated script that extracts the list of all countries ranked by their GDPs in billion USD (rounded to two decimal places), based on data released by the International Monetary Fund (IMF).
 
-This project implements an ETL (Extract, Transform, Load) process using Python to handle CSV, JSON, and XML data formats.
+The script needs to:
+- Output the data as a JSON file, `Countries_by_GDP.json`.
+- Store the data in a SQLite database, `World_Economies.db`, in a table named `Countries_by_GDP` with attributes `Country` and `GDP_USD_billion`.
 
-Through this task, I learned how to:
-- Use the pandas library for data manipulation and extraction.
-- Implement functions to extract data from various file formats.
-- Transform data by converting height from inches to meters and weight from pounds to kilograms.
-- Utilise logging to track the progress of each ETL phase effectively.
+To demonstrate the script's functionality, I query the database to show entries with economies greater than 100 billion USD. The entire execution process is logged in a file called `etl_project_log.txt`.
 
-### ✅ Web Scraping and APIs
+## ✅ ETL Project
 
-I learned to extract data from web pages using Python through web scraping. The main objectives included utilising the `requests` and `BeautifulSoup` libraries to retrieve and analyse HTML code.
+This project implements an ETL (Extract, Transform, Load) pipeline using Python to handle CSV, JSON, and XML data formats.
 
-By the end of this exercise, I learnt how to:
-- Scrape relevant information (e.g. average rank or film title) from a specified webpage.
-- Organise the extracted data into a structured format and save it in a CSV file.
-- Store the same data in a SQLite database.
+Through this task, I gained experience in:
+- Using the Pandas library for data extraction and manipulation.
+- Extracting data from multiple formats.
+- Transforming data by converting height (inches to meters) and weight (pounds to kilograms).
+- Using logging to track progress through each stage of the ETL process.
 
-This experience enhanced my understanding of web scraping techniques and improved my ability to handle HTML data structures for information extraction.
+## ✅ Web Scraping and APIs
 
-### ✅ Database Creation and Data Loading 
+I developed skills in extracting data from web pages using Python’s web scraping techniques, focusing on the `requests` and `BeautifulSoup` libraries for retrieving and parsing HTML.
 
-I learned how to create a database using Python and the SQLite3 library, which is embedded in Python. 
+By the end of this task, I learned how to:
+- Scrape relevant information (e.g., film titles and ranks) from a webpage.
+- Structure the scraped data and save it as a CSV file.
+- Store the data in a SQLite database for easy querying.
 
-I used Pandas to read the CSV file and load the data into the SQLite database. The essential steps involved:
-- Defining table attributes and creating the table.
-- Loading data using `to_sql()`, ensuring that existing tables were replaced if necessary.
-- Executing SQL queries to view all data, specific columns, and count entries.
+This project significantly enhanced my ability to work with HTML structures and extract useful information.
 
-## Installation
+## ✅ Database Creation and Data Loading
+
+In this task, I learned to create and manage databases using Python's SQLite3 library. 
+
+I used Pandas to read CSV files and load the data into an SQLite database, learning how to:
+- Define table attributes and create tables.
+- Load data into the database using `to_sql()`, with options to replace existing tables.
+- Execute SQL queries to display data, specific columns, and entry counts.
+
+## 👷🏻‍♂️ Installation
 
 Clone the repository:
-bash
-‘’’ git clone <repository_url>
 
-Navigate to the folder:
-bash
-‘’’ cd *folder name*
+```bash
+git clone <repository_url>
+```
 
-Before running any of the folders,, ensure you have the pandas library installed. Execute the following command in your terminal:
-bash
-‘’’ python3.12 -m pip install pandas
+Navigate to the project folder:
+
+```bash
+cd <folder_name>
+```
+
+Before running the projects, ensure that you have the Pandas library installed. You can install it by running the following command:
+
+```bash
+python3.12 -m pip install pandas
+```
+```
