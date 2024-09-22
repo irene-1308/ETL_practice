@@ -64,4 +64,3 @@ Before running the projects, ensure that you have the Pandas library installed. 
 ```bash
 python3.12 -m pip install pandas
 ```
-```
