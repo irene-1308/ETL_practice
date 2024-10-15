@@ -68,5 +68,5 @@ python3.12 -m pip install pandas
 Now you're ready to go! Select the .py file in the folder and run the following command:
 
 ```bash
-python3 <filename>.py
+python3.12 <filename>.py
 ```
