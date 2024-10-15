@@ -59,8 +59,14 @@ Navigate to the project folder:
 cd <folder_name>
 ```
 
-Before running the projects, ensure that you have the Pandas library installed. You can install it by running the following command:
+Before running the projects, ensure that you have the all the libraries installed. For example, to install Pandas, you will need to run the following command:
 
 ```bash
 python3.12 -m pip install pandas
+```
+
+Now you're ready to go! Select the .py file in the folder and run the following command:
+
+```bash
+python3 <filename>.py
 ```
